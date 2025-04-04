@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../asset/Icon/Sign in.png">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../style/main.css">
+    <title>Shop</title>
+    
+</head>
+<body>
+    <header>
+        <div class="header-center">
+            <img src="/asset/Icon/Zestylicious-removebg-preview.png" alt="Zestylicious">
+            <h1>ZESTYLICIOUS</h1>
+        </div>
+        <div class="search">
+            <div class="search-bar">
+                <input type="search" placeholder="Search">
+                <i class='bx bx-search'></i>
+            </div>
+            <a href="./loing.html" target="_blank"><i class='bx bx-user'></i></a>
+        </div>
+    </header>
+    <nav>
+        <a href="/index.html">Home</a>
+        <a href="/Components/shop.html">Shop</a>
+        <a href="/Components/about.html">About</a>
+        <a href="/Components/contact.html">Contact</a>
+    </nav>
+
+    <div class="cart">
+        <h2>Shopping Cart</h2>
+        <div id="cart-items"></div>
+        <div class="subtotal">Subtotal: $0.00</div>
+        <button class="btn1">Checkout</button>
+        <button class="btn2">View Cart</button>
+    </div>
+    <!-- Shop Products Section -->
+    <main>
+        <section class="shop-products">
+            <h2>Khmer Food</h2>
+            <div class="products">
+                <div class="product">
+                    <img src="../asset/Picture/Nom Banh Chok.jpg" alt="Product 1">
+                    <h3>នំបញ្ចុក</h3>
+                    <p>$1.5</p>
+                    <button class="add-to-cart" data-name="នំបញ្ចុក" data-price="1.5">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="../asset/Picture/khmer-food-som-tum-papaya-salad.jpg" alt="Product 2">
+                    <h3>បុកល្ហុង</h3>
+                    <p>$2.5</p>
+                    <button class="add-to-cart" data-name="បុកល្ហុង" data-price="2.5">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="../asset/Picture/ទឹកគ្រឿង.jpg" alt="Product 3">
+                    <h3>ទឹកគ្រឿង</h3>
+                    <p>$2.5</p>
+                    <button class="add-to-cart" data-name="ទឹកគ្រឿង" data-price="2.5">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="../asset/Picture/សម្លម្ជូរគ្រឿង.jpg" alt="Product 4">
+                    <h3>សម្លម្ជូរគ្រឿង</h3>
+                    <p>$2.5</p>
+                    <button class="add-to-cart" data-name="សម្លម្ជូរគ្រឿង" data-price="2.5">Add to Cart</button>
+                </div>
+            </div>
+            <div class="products">
+                <div class="product">
+                    <img src="../asset/Picture/Kuy-Teav.jpg" alt="Product 4">
+                    <h3>គុយទាវ</h3>
+                    <p>$5.00</p>
+                    <button class="add-to-cart" data-name="គុយទាវ" data-price="5.00">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="../asset/Picture/Amok (Coconut fish curry).jpg" alt="Product 4">
+                    <h3>អាម៉ុក</h3>
+                    <p>$5.00</p>
+                    <button class="add-to-cart" data-name="អាម៉ុក" data-price="5.00">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="../asset/Picture/lap-khmer.jpg" alt="Product 4">
+                    <h3>ឡាប</h3>
+                    <p>$5.00</p>
+                    <button class="add-to-cart" data-name="ឡាប" data-price="5.00">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="../asset/Picture/kor sach jrok.jpg" alt="Product 4">
+                    <h3>ខ​សាច់ជ្រូក​ ពងទា</h3>
+                    <p>$5.00</p>
+                    <button class="add-to-cart" data-name="ខ​សាច់ជ្រូក​ ពងទា" data-price="5.00">Add to Cart</button>
+                </div>
+            </div>
+            <br>
+            <h2>National food</h2>
+            <div class="products">
+                <div class="product">
+                    <img src="../asset/Picture/Lok lak.jpg" alt="Product 4">
+                    <h3>ឡុក​​ឡាក់ សាច់គោ</h3>
+                    <p>$3.5</p>
+                    <button class="add-to-cart" data-name="ឡុក​​ឡាក់ សាច់គោ" data-price="3.5">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="../asset/Picture/Pleah sach ko.jpg" alt="ភ្លាសាច់គោ">
+                    <h3>ភ្លាសាច់គោ</h3>
+                    <p>$5.00</p>
+                    <button class="add-to-cart" data-name="ភ្លាសាច់គោ" data-price="5.00">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="../asset/Picture/tom-yum-mama-with-squid-boiled-egg.jpg" alt="តុងយ៉ាំ​ ម៉ាម៉ា">
+                    <h3>តុងយ៉ាំ​ ម៉ាម៉ា</h3>
+                    <p>$3.00</p>
+                    <button class="add-to-cart" data-name="តុងយ៉ាំ​ ម៉ាម៉ា" data-price="3.00">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="../asset/Picture/Yaohon (Hot pot).jpg" alt="ស៊ុប យ៉ាហន">
+                    <h3>ស៊ុប យ៉ាហន</h3>
+                    <p>$4.5</p>
+                    <button class="add-to-cart" data-name="ស៊ុប យ៉ាហន" data-price="9.00">Add to Cart</button>
+                </div>
+            </div>
+            <br>
+            <h2>Drink</h2>
+            <div class="products">
+                <div class="product">
+                    <img src="../asset/Picture/wurkz.jpg" alt="ភេសជ្ជៈវើក">
+                    <h3>ភេសជ្ជៈវើក</h3>
+                    <p>$0.5</p>
+                    <button class="add-to-cart" data-name="ភេសជ្ជៈវើក" data-price="0.5">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="../asset/Picture/maxresdefault.jpg" alt="ភេសជ្ជៈអាយ">
+                    <h3>ភេសជ្ជៈអាយ</h3>
+                    <p>$0.5</p>
+                    <button class="add-to-cart" data-name="ភេសជ្ជៈអាយ" data-price="0.5">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="../asset/Picture/freshy.jpg" alt="ភេសជ្ជៈ​ Freshy">
+                    <h3>ភេសជ្ជៈ​ Freshy</h3>
+                    <p>$0.5</p>
+                    <button class="add-to-cart" data-name="ភេសជ្ជៈ​ Freshy" data-price="0.5">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="../asset/Picture/champoin drink.jpg" alt="ភេសជ្ជៈ​ champion">
+                    <h3>ភេសជ្ជៈ​ champion</h3>
+                    <p>$0.5</p>
+                    <button class="add-to-cart" data-name="ភេសជ្ជៈ​ champion" data-price="0.7">Add to Cart</button>
+                </div>
+            </div>
+            <br>
+            <h2>Wine</h2>
+            <div class="products">
+                <div class="product">
+                    <img src="../asset/Picture/red-wine.webp" alt="Red Wine">
+                    <h3>Red Wine</h3>
+                    <p>$25.00</p>
+                    <button class="add-to-cart" data-name="Lindeman's Bin 85 Pinot Grigio" data-price="9.00">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="../asset/Picture/white-wine.jpg" alt="White Wine">
+                    <h3>White Wine</h3>
+                    <p>$35.00</p>
+                    <button class="add-to-cart" data-name="White Wine" data-price="35.00">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="../asset/Picture/source-cabernet-sauvignon.webp" alt="source-cabernet-sauvignon">
+                    <h3>source Cabernet Sauvignon Wine</h3>
+                    <p>$40.00</p>
+                    <button class="add-to-cart" data-name="source Cabernet Sauvignon Wine" data-price="40.00">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="../asset/Picture/dessert-Wine.jpg" alt="dessert-Wine">
+                    <h3>Dessert-Wine</h3>
+                    <p>$45.00</p>
+                    <button class="add-to-cart" data-name="Dessert Wine" data-price="45.00">Add to Cart</button>
+                </div>
+            </div>
+            <br>
+            <h2>Juice</h2>
+            <div class="products">
+                <div class="product">
+                    <img src="../asset/Picture/watermelon-juice.jpg" alt="ទឹកឪឡឹក">
+                    <h3>ទឹកឪឡឹក</h3>
+                    <p>$1</p>
+                    <button class="add-to-cart" data-name="ទឹកឪឡឹក" data-price="1.00">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="../asset/Picture/Water juice.jpg" alt="ទឹកផ្លែឈើចម្រុះ">
+                    <h3>ទឹកផ្លែឈើចម្រុះ</h3>
+                    <p>$1.5</p>
+                    <button class="add-to-cart" data-name="ទឹកផ្លែឈើចម្រុះ" data-price="1.50">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="../asset/Picture/orange-juice-1296x728-feature.jpg" alt="ទឹកក្រូច">
+                    <h3>ទឹកក្រូច</h3>
+                    <p>$1.5</p>
+                    <button class="add-to-cart" data-name="ទឹកក្រូច" data-price="1.50">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="../asset/Picture/Fresh coconut.jpg" alt="ទឹកដូង">
+                    <h3>ទឹកដូង</h3>
+                    <p>$1</p>
+                    <button class="add-to-cart" data-name="ទឹកដូង" data-price="1.00">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-one">
+            <div class="footer-1">
+                <img src="../asset/Icon/Zestylicious-removebg-preview.png" alt="Zestylicious">
+                <h3>Zestylicious</h3>
+            </div>
+            <div class="footer-2">
+                <h3>Menu</h3>
+                <p>Khmer Food</p>
+                <p>National food</p>
+                <p>Drink</p>
+                <p>Wine</p>
+                <p>Juice</p>
+            </div>
+            <div class="footer-3">
+                <h3>Chef</h3>
+                <p>Sochhiet</p>
+                <p>Yeanseu</p>
+                <p>Sovanarith</p>
+                <p>Sopeak</p>
+            </div>
+            <div class="footer-4">
+                <h3>Social Media</h3>
+                <a href="#" target="_blank" class="footer-icon"><i class='bx bxl-telegram'></i></a>
+                <a href="#" target="_blank" class="footer-icon"><i class='bx bxl-facebook'></i></a>
+                <a href="#" target="_blank" class="footer-icon"><i class='bx bxl-twitter'></i></a>
+                <a href="#" target="_blank" class="footer-icon"><i class='bx bxl-youtube'></i></a>
+            </div>
+            <div class="footer-5">
+                <h3>Contact US</h3>
+                <input type="search" placeholder="Message">
+                <button class="Send">Send</button>
+            </div>
+        </div>
+        <div class="footer-two">
+            <p>© 2024 Zestylicious. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="../Javascript/script.js"></script>
+</body>
+</html>
